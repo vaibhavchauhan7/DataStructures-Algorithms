@@ -1,6 +1,6 @@
 package com.dsa;
 
-import com.dsa.Array.NegativeLeftPositiveRight;
+import com.dsa.Array.ReverseArray;
 
 public class Main {
 
@@ -23,7 +23,7 @@ public class Main {
         // sort0s1s2s.sort0s1s2s();
 
         // NegativeLeftPositiveRight
-        NegativeLeftPositiveRight negativeLeftPositiveRight = new NegativeLeftPositiveRight();
-        negativeLeftPositiveRight.negativeLeftPositiveRight();
+        // NegativeLeftPositiveRight negativeLeftPositiveRight = new NegativeLeftPositiveRight();
+        // negativeLeftPositiveRight.negativeLeftPositiveRight();
     }
 }

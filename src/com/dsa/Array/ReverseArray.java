@@ -1,32 +1,19 @@
 package com.dsa.Array;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.Arrays;
 
 public class ReverseArray {
 
     public void reverseArray() {
-        List<Integer> numbers = new ArrayList<>();
-        Stack<Integer> numberStack = new Stack<>();
+        int[] numbers = {1, 2, 3, 4};
+        System.out.println("Original Array: " + Arrays.toString(numbers));
 
-        numbers.add(1);
-        numbers.add(2);
-        numbers.add(3);
-        numbers.add(4);
-        System.out.println("Numbers: " + numbers);
-
-        if (numbers.size() > 0) {
-            for (Integer number : numbers) {
-                numberStack.push(number);
-            }
-            numbers.clear();
+        for (int i = 0; i < numbers.length/2; i++) {
+            int temp = numbers[i];
+            numbers[i] = numbers[numbers.length - i - 1];
+            numbers[numbers.length - i - 1] = temp;
         }
 
-        while (!numberStack.isEmpty()) {
-            numbers.add(numberStack.pop());
-        }
-
-        System.out.println("Reverse Numbers: " + numbers);
+        System.out.println("Reversed Array: " + Arrays.toString(numbers));
     }
 }
