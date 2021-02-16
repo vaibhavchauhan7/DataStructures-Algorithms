@@ -1,6 +1,6 @@
 package com.dsa;
 
-import com.dsa.Array.Sort0s1s2s;
+import com.dsa.Array.NegativeLeftPositiveRight;
 
 public class Main {
 
@@ -19,11 +19,11 @@ public class Main {
         // kthSmallestElement.kthSmallestElement();
 
         // Sort0s1s2s
-         Sort0s1s2s sort0s1s2s = new Sort0s1s2s();
-         sort0s1s2s.sort0s1s2s();
+        // Sort0s1s2s sort0s1s2s = new Sort0s1s2s();
+        // sort0s1s2s.sort0s1s2s();
 
         // NegativeLeftPositiveRight
-        // NegativeLeftPositiveRight negativeLeftPositiveRight = new NegativeLeftPositiveRight();
-        // negativeLeftPositiveRight.negativeLeftPositiveRight();
+         NegativeLeftPositiveRight negativeLeftPositiveRight = new NegativeLeftPositiveRight();
+         negativeLeftPositiveRight.negativeLeftPositiveRight();
     }
 }
