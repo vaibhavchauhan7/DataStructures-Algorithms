@@ -1,6 +1,6 @@
 package com.dsa;
 
-import com.dsa.Array.CyclicRotateArray;
+import com.dsa.Array.HeightDifference;
 
 public class Main {
 
@@ -32,7 +32,11 @@ public class Main {
         // unionIntersection.intersection();
 
         // CyclicRotateArray
-        CyclicRotateArray cyclicRotateArray = new CyclicRotateArray();
-        cyclicRotateArray.cyclicRotateArray();
+        // CyclicRotateArray cyclicRotateArray = new CyclicRotateArray();
+        // cyclicRotateArray.cyclicRotateArray();
+
+        // HeightDifference
+        HeightDifference heightDifference = new HeightDifference();
+        heightDifference.heightDifference();
     }
 }
