@@ -1,6 +1,6 @@
 package com.dsa;
 
-import com.dsa.Array.HeightDifference;
+import com.dsa.Array.MinimumJumps;
 
 public class Main {
 
@@ -36,7 +36,11 @@ public class Main {
         // cyclicRotateArray.cyclicRotateArray();
 
         // HeightDifference
-        HeightDifference heightDifference = new HeightDifference();
-        heightDifference.heightDifference();
+        // HeightDifference heightDifference = new HeightDifference();
+        // heightDifference.heightDifference();
+
+        // MinimumJumps
+        MinimumJumps minimumJumps = new MinimumJumps();
+        minimumJumps.minimumJumps();
     }
 }
