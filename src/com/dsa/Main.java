@@ -1,5 +1,6 @@
 package com.dsa;
 
+import com.dsa.Array.DuplicateNumber;
 import com.dsa.Array.MinimumJumps;
 
 public class Main {
@@ -40,7 +41,11 @@ public class Main {
         // heightDifference.heightDifference();
 
         // MinimumJumps
-        MinimumJumps minimumJumps = new MinimumJumps();
-        minimumJumps.minimumJumps();
+        // MinimumJumps minimumJumps = new MinimumJumps();
+        // minimumJumps.minimumJumps();
+
+        // DuplicateNumber
+        DuplicateNumber duplicateNumber = new DuplicateNumber();
+        duplicateNumber.duplicateNumber();
     }
 }
